@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		594EB09B0E76737BAC72B72A /* Pods_BBQTonightAdmin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C9CD6689F9E712223B21E4 /* Pods_BBQTonightAdmin.framework */; };
+		8101F10D207E42CC00DFE4CB /* AddCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8101F10C207E42CC00DFE4CB /* AddCategory.swift */; };
+		8101F10F207E79BE00DFE4CB /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8101F10E207E79BE00DFE4CB /* Post.swift */; };
+		8154823F207D16C800293AF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8154823E207D16C800293AF3 /* AppDelegate.swift */; };
+		81548244207D16C800293AF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81548242207D16C800293AF3 /* Main.storyboard */; };
+		81548246207D16C800293AF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81548245207D16C800293AF3 /* Assets.xcassets */; };
+		81548249207D16C800293AF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81548247207D16C800293AF3 /* LaunchScreen.storyboard */; };
+		81548253207D17BB00293AF3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81548252207D17BB00293AF3 /* GoogleService-Info.plist */; };
+		81548255207D1A8200293AF3 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81548254207D1A8200293AF3 /* LoginVC.swift */; };
+		81915D9C20821A2600AB9D1E /* OrderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81915D9B20821A2600AB9D1E /* OrderVC.swift */; };
+		81915D9E20821F0F00AB9D1E /* OrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81915D9D20821F0F00AB9D1E /* OrderCell.swift */; };
+		81915DA02082278100AB9D1E /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81915D9F2082278100AB9D1E /* Order.swift */; };
+		81EA5DAB207D1ED100FA1505 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EA5DAA207D1ED100FA1505 /* Extensions.swift */; };
+		81EA5DAD207D30D000FA1505 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EA5DAC207D30D000FA1505 /* HomeController.swift */; };
+		81EA5DAF207D3AE000FA1505 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EA5DAE207D3AE000FA1505 /* HomeCell.swift */; };
+		81EA5DB2207D3B9E00FA1505 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EA5DB1207D3B9E00FA1505 /* CustomImageView.swift */; };
+		81EA5DB7207D3C2600FA1505 /* CDRTranslucentSideBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EA5DB5207D3C2600FA1505 /* CDRTranslucentSideBar.m */; };
+		81EA5DB9207D3CBD00FA1505 /* SideBarMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EA5DB8207D3CBD00FA1505 /* SideBarMenu.swift */; };
+		81EA5DBB207D3CD900FA1505 /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EA5DBA207D3CD900FA1505 /* Sidebar.swift */; };
+		81FFFC56207DD77800936AED /* CategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FFFC55207DD77800936AED /* CategoryVC.swift */; };
+		81FFFC58207DE0A200936AED /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FFFC57207DE0A200936AED /* Category.swift */; };
+		81FFFC5C207E023E00936AED /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FFFC5B207E023E00936AED /* ModalViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8101F10C207E42CC00DFE4CB /* AddCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCategory.swift; sourceTree = "<group>"; };
+		8101F10E207E79BE00DFE4CB /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		8154823B207D16C800293AF3 /* BBQTonightAdmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BBQTonightAdmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8154823E207D16C800293AF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81548243207D16C800293AF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81548245207D16C800293AF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81548248207D16C800293AF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8154824A207D16C800293AF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81548252207D17BB00293AF3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		81548254207D1A8200293AF3 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		81915D9B20821A2600AB9D1E /* OrderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderVC.swift; sourceTree = "<group>"; };
+		81915D9D20821F0F00AB9D1E /* OrderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCell.swift; sourceTree = "<group>"; };
+		81915D9F2082278100AB9D1E /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		81EA5DAA207D1ED100FA1505 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		81EA5DAC207D30D000FA1505 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		81EA5DAE207D3AE000FA1505 /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		81EA5DB1207D3B9E00FA1505 /* CustomImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		81EA5DB4207D3C2500FA1505 /* BBQTonightAdmin-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BBQTonightAdmin-Bridging-Header.h"; sourceTree = "<group>"; };
+		81EA5DB5207D3C2600FA1505 /* CDRTranslucentSideBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDRTranslucentSideBar.m; sourceTree = "<group>"; };
+		81EA5DB6207D3C2600FA1505 /* CDRTranslucentSideBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDRTranslucentSideBar.h; sourceTree = "<group>"; };
+		81EA5DB8207D3CBD00FA1505 /* SideBarMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarMenu.swift; sourceTree = "<group>"; };
+		81EA5DBA207D3CD900FA1505 /* Sidebar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sidebar.swift; sourceTree = "<group>"; };
+		81FFFC55207DD77800936AED /* CategoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryVC.swift; sourceTree = "<group>"; };
+		81FFFC57207DE0A200936AED /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		81FFFC5B207E023E00936AED /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+		92C9CD6689F9E712223B21E4 /* Pods_BBQTonightAdmin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BBQTonightAdmin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4CBF9A1150729D85A07CEDC /* Pods-BBQTonightAdmin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBQTonightAdmin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BBQTonightAdmin/Pods-BBQTonightAdmin.debug.xcconfig"; sourceTree = "<group>"; };
+		FC6F346EE5DB489628B915B4 /* Pods-BBQTonightAdmin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBQTonightAdmin.release.xcconfig"; path = "Pods/Target Support Files/Pods-BBQTonightAdmin/Pods-BBQTonightAdmin.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81548238207D16C800293AF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				594EB09B0E76737BAC72B72A /* Pods_BBQTonightAdmin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EC8D965A115AEBAEAB97180 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C4CBF9A1150729D85A07CEDC /* Pods-BBQTonightAdmin.debug.xcconfig */,
+				FC6F346EE5DB489628B915B4 /* Pods-BBQTonightAdmin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		81548232207D16C800293AF3 = {
+			isa = PBXGroup;
+			children = (
+				8154823D207D16C800293AF3 /* BBQTonightAdmin */,
+				81548252207D17BB00293AF3 /* GoogleService-Info.plist */,
+				8154823C207D16C800293AF3 /* Products */,
+				3EC8D965A115AEBAEAB97180 /* Pods */,
+				B03CC691B44E66E8CC4BF79D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8154823C207D16C800293AF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8154823B207D16C800293AF3 /* BBQTonightAdmin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8154823D207D16C800293AF3 /* BBQTonightAdmin */ = {
+			isa = PBXGroup;
+			children = (
+				81EA5DB3207D3C1800FA1505 /* Objective C */,
+				81EA5DB0207D3B9100FA1505 /* Utils */,
+				81548258207D1B6A00293AF3 /* Controller */,
+				81548257207D1B6400293AF3 /* View */,
+				81548256207D1B5E00293AF3 /* Model */,
+				8154823E207D16C800293AF3 /* AppDelegate.swift */,
+				81548245207D16C800293AF3 /* Assets.xcassets */,
+				8154824A207D16C800293AF3 /* Info.plist */,
+			);
+			path = BBQTonightAdmin;
+			sourceTree = "<group>";
+		};
+		81548256207D1B5E00293AF3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8101F10E207E79BE00DFE4CB /* Post.swift */,
+				81EA5DBA207D3CD900FA1505 /* Sidebar.swift */,
+				81FFFC57207DE0A200936AED /* Category.swift */,
+				81915D9F2082278100AB9D1E /* Order.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		81548257207D1B6400293AF3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				81EA5DAA207D1ED100FA1505 /* Extensions.swift */,
+				81548242207D16C800293AF3 /* Main.storyboard */,
+				81548247207D16C800293AF3 /* LaunchScreen.storyboard */,
+				81EA5DAE207D3AE000FA1505 /* HomeCell.swift */,
+				81915D9D20821F0F00AB9D1E /* OrderCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		81548258207D1B6A00293AF3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				81548254207D1A8200293AF3 /* LoginVC.swift */,
+				81EA5DAC207D30D000FA1505 /* HomeController.swift */,
+				81EA5DB8207D3CBD00FA1505 /* SideBarMenu.swift */,
+				81FFFC55207DD77800936AED /* CategoryVC.swift */,
+				81FFFC5B207E023E00936AED /* ModalViewController.swift */,
+				8101F10C207E42CC00DFE4CB /* AddCategory.swift */,
+				81915D9B20821A2600AB9D1E /* OrderVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		81EA5DB0207D3B9100FA1505 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				81EA5DB1207D3B9E00FA1505 /* CustomImageView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		81EA5DB3207D3C1800FA1505 /* Objective C */ = {
+			isa = PBXGroup;
+			children = (
+				81EA5DB6207D3C2600FA1505 /* CDRTranslucentSideBar.h */,
+				81EA5DB5207D3C2600FA1505 /* CDRTranslucentSideBar.m */,
+				81EA5DB4207D3C2500FA1505 /* BBQTonightAdmin-Bridging-Header.h */,
+			);
+			path = "Objective C";
+			sourceTree = "<group>";
+		};
+		B03CC691B44E66E8CC4BF79D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92C9CD6689F9E712223B21E4 /* Pods_BBQTonightAdmin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8154823A207D16C800293AF3 /* BBQTonightAdmin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8154824D207D16C800293AF3 /* Build configuration list for PBXNativeTarget "BBQTonightAdmin" */;
+			buildPhases = (
+				421688F96F464E2EEAF87C7A /* [CP] Check Pods Manifest.lock */,
+				81548237207D16C800293AF3 /* Sources */,
+				81548238207D16C800293AF3 /* Frameworks */,
+				81548239207D16C800293AF3 /* Resources */,
+				56CADAFEB1C432462C606B16 /* [CP] Embed Pods Frameworks */,
+				3B72A09485D9AC7DF5E608D9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BBQTonightAdmin;
+			productName = BBQTonightAdmin;
+			productReference = 8154823B207D16C800293AF3 /* BBQTonightAdmin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81548233207D16C800293AF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Nasim;
+				TargetAttributes = {
+					8154823A207D16C800293AF3 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 81548236207D16C800293AF3 /* Build configuration list for PBXProject "BBQTonightAdmin" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81548232207D16C800293AF3;
+			productRefGroup = 8154823C207D16C800293AF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8154823A207D16C800293AF3 /* BBQTonightAdmin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81548239207D16C800293AF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81548249207D16C800293AF3 /* LaunchScreen.storyboard in Resources */,
+				81548253207D17BB00293AF3 /* GoogleService-Info.plist in Resources */,
+				81548246207D16C800293AF3 /* Assets.xcassets in Resources */,
+				81548244207D16C800293AF3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B72A09485D9AC7DF5E608D9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BBQTonightAdmin/Pods-BBQTonightAdmin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		421688F96F464E2EEAF87C7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BBQTonightAdmin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56CADAFEB1C432462C606B16 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BBQTonightAdmin/Pods-BBQTonightAdmin-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BBQTonightAdmin/Pods-BBQTonightAdmin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81548237207D16C800293AF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8101F10D207E42CC00DFE4CB /* AddCategory.swift in Sources */,
+				81FFFC56207DD77800936AED /* CategoryVC.swift in Sources */,
+				81EA5DAD207D30D000FA1505 /* HomeController.swift in Sources */,
+				81EA5DB2207D3B9E00FA1505 /* CustomImageView.swift in Sources */,
+				81915D9C20821A2600AB9D1E /* OrderVC.swift in Sources */,
+				8154823F207D16C800293AF3 /* AppDelegate.swift in Sources */,
+				81915DA02082278100AB9D1E /* Order.swift in Sources */,
+				81915D9E20821F0F00AB9D1E /* OrderCell.swift in Sources */,
+				8101F10F207E79BE00DFE4CB /* Post.swift in Sources */,
+				81FFFC5C207E023E00936AED /* ModalViewController.swift in Sources */,
+				81EA5DB9207D3CBD00FA1505 /* SideBarMenu.swift in Sources */,
+				81EA5DB7207D3C2600FA1505 /* CDRTranslucentSideBar.m in Sources */,
+				81EA5DAB207D1ED100FA1505 /* Extensions.swift in Sources */,
+				81548255207D1A8200293AF3 /* LoginVC.swift in Sources */,
+				81EA5DBB207D3CD900FA1505 /* Sidebar.swift in Sources */,
+				81EA5DAF207D3AE000FA1505 /* HomeCell.swift in Sources */,
+				81FFFC58207DE0A200936AED /* Category.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		81548242207D16C800293AF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81548243207D16C800293AF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		81548247207D16C800293AF3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81548248207D16C800293AF3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8154824B207D16C800293AF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8154824C207D16C800293AF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8154824E207D16C800293AF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4CBF9A1150729D85A07CEDC /* Pods-BBQTonightAdmin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2FY5AEHQW;
+				INFOPLIST_FILE = BBQTonightAdmin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nasimahmed.bbqtonight.admin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BBQTonightAdmin/Objective C/BBQTonightAdmin-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8154824F207D16C800293AF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC6F346EE5DB489628B915B4 /* Pods-BBQTonightAdmin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2FY5AEHQW;
+				INFOPLIST_FILE = BBQTonightAdmin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nasimahmed.bbqtonight.admin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BBQTonightAdmin/Objective C/BBQTonightAdmin-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81548236207D16C800293AF3 /* Build configuration list for PBXProject "BBQTonightAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8154824B207D16C800293AF3 /* Debug */,
+				8154824C207D16C800293AF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8154824D207D16C800293AF3 /* Build configuration list for PBXNativeTarget "BBQTonightAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8154824E207D16C800293AF3 /* Debug */,
+				8154824F207D16C800293AF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81548233207D16C800293AF3 /* Project object */;
+}
